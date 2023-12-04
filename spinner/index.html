@@ -7,10 +7,20 @@
     body {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-around;
       height: 100vh;
       margin: 0;
       background-color: #f4f4f4;
+    }
+
+    .loader1 {
+      border: 8px solid #3498db;
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
     }
 
     .loader {
@@ -30,5 +40,6 @@
 </head>
 <body>
   <div class="loader"></div>
+  <div class="loader1"></div>
 </body>
 </html>
